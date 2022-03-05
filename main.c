@@ -8,6 +8,5 @@ int main(int argc, char *argv[]) {
         long f = strtol(argv[1], &extra, 10 );
         printf("%ld fahrenheit is %.2f centigrade\n",f,ftoc(f));
     }
-    printf("Hello, World!\n");
     return 0;
 }
